@@ -5,7 +5,7 @@ import Icon from "./Icon";
 import "./ProfileHeader.scss";
 
 // assets
-import profilePicture from "../assets/profile-picture.webp";
+import profilePicture from "../assets/broLogoTransparent.png";
 
 interface ProfileHeaderProps {
     name: string;
