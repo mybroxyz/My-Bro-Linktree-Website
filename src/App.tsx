@@ -10,6 +10,7 @@ import configData from "./data/config.json";
 import ProfileHeader from "./components/ProfileHeader";
 import LinkBlocksWrapper from "./components/LinkBlocksWrapper";
 import Footer from "./components/Footer";
+import Footer2 from "./components/Footer2";
 import LoadingScreen from "./components/LoadingScreen";
 
 // styles
@@ -46,10 +47,12 @@ function App() {
                     links={config.links}
                     linkLogoColor={config.linkLogoColor}
                 />
-                <Footer
-                    name={config.name}
-                    buildYourOwnBtnColor={config.buildYourOwnBtnColor}
-                />
+                <Footer2
+                name={config.name}
+                buildYourOwnBtnColor={config.buildYourOwnBtnColor}
+                />                
+
+
             </div>
         </>
     );

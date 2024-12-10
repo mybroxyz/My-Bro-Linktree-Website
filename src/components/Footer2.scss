@@ -1,0 +1,104 @@
+@use "../styles/mixins";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 15px 10px;
+
+  @include mixins.glass-card;
+
+  .copyright {
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: inherit;
+  }
+
+  .build-your-own-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    color: inherit;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 
+    background-color 0.3s ease, 
+  }
+
+
+  /* Informational Text Styling */
+  .footer-info {
+    text-align: center;
+    color: #e0f4ff; /* textColor from config.json */
+    font-family: 'Parkinsans', sans-serif; /* Ensure it matches your site */
+    max-width: 600px;
+    padding: 10px;
+
+    .footer-description {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .footer-title {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      text-align: center; /* Centers the heading */
+    }
+
+    .footer-tokenomics {
+      list-style: none; /* Remove default bullets */
+      padding: 0;
+      text-align: center; /* Centers the list */
+
+      li {
+        position: relative;
+        padding-left: 20px;
+        font-size: 1rem;
+        margin-bottom: 6px;
+
+        /*&:before {
+          content: "•";
+          position: absolute;
+          left: 0;
+          color: #e0f4ff; 
+        }*/
+      }
+    }
+  }
+
+  /* Responsive Adjustments */
+  @media only screen and (max-width: 768px) {
+    .footer-info {
+      max-width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .footer-info {
+      max-width: 95%;
+    }
+
+    .build-your-own-btn {
+      padding: 8px 16px;
+      font-size: 1rem;
+    }
+
+    .footer-info .footer-description,
+    .footer-info .footer-title,
+    .footer-info .footer-tokenomics li {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Cursor Pointer for Buttons */
+  .build-your-own-btn {
+    cursor: pointer;
+  }
+}

@@ -27,9 +27,7 @@ export default function ProfileHeader(props: ProfileHeaderProps) {
             </div>
             <div className="profile-title">
                 <div className="profile-name">{props.name}</div>
-                <Icon name="verified" fillColor={props.verifiedIconColor} />
             </div>
-            <div className="profile-handle">{`@${props.handle}`}</div>
             <div className="profile-bio">{props.bio}</div>
         </div>
     );

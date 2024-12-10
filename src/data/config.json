@@ -1,27 +1,23 @@
 {
-    "name": "BRO Token",
-    "handle": "Bro",
-    "bio": "Bro Token",
+    "name": "My Bro",
+    "handle": "MyBro_xyz",
+    "bio": "$BRO presale launching soon, only on Avalanche.",
     "verifiedIconColor": "#36b7fd",
     "linkLogoColor": "#30A5E4",
     "textColor": "#e0f4ff",
     "buildYourOwnBtnColor": "#053a6e",
     "backgroundColor": "#041020",
     "links": [
-        {
-            "name": "GitHub",
-            "logoName": "github",
-            "url": "https://github.com/breadNbutter42/broWebsiteSimpleTree"
-        },
+
         {
             "name": "X",
             "logoName": "social-x",
-            "url": "https://x.com/senathenu"
+            "url": "https://x.com/MyBro_xyz"
         },
         {
-            "name": "Medium",
-            "logoName": "medium",
-            "url": "https://medium.com/@senathenu"
+            "name": "Telegram",
+            "logoName": "telegram",
+            "url": "https://t.me/MyBro_xyz"
         }
     ]
 }
