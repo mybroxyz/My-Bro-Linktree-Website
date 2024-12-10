@@ -23,7 +23,7 @@ export default function Footer() {
                     <li>No Allocations</li>
                     <li>No Taxes</li>
                     <li>No BS</li>
-                    <li>Trustless, automated and audited presale for bot protection</li>
+                    <li>Trustless, automated and audited presale for bot protection.</li>
 
                 </ul>
             </div>
