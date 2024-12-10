@@ -1,6 +1,3 @@
-// components
-import Icon from "./Icon";
-
 // styles
 import "./ProfileHeader.scss";
 

@@ -47,8 +47,6 @@ function App() {
                     linkLogoColor={config.linkLogoColor}
                 />
                 <Footer2
-                name={config.name}
-                buildYourOwnBtnColor={config.buildYourOwnBtnColor}
                 />                
 
 
