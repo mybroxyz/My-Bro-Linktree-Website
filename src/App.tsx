@@ -9,7 +9,6 @@ import configData from "./data/config.json";
 // components
 import ProfileHeader from "./components/ProfileHeader";
 import LinkBlocksWrapper from "./components/LinkBlocksWrapper";
-import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
 import LoadingScreen from "./components/LoadingScreen";
 
