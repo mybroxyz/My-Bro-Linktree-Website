@@ -1,25 +1,11 @@
-import { motion } from "framer-motion";
 
 // components
-import Icon from "./Icon";
 
 // styles
 import "./Footer2.scss";
 
-interface FooterProps {
-    name: string;
-    buildYourOwnBtnColor: string;
-}
 
-const btnVariants = {
-    initial: { opacity: 0, scale: 1 },
-    visible: { opacity: 1, scale: 1 },
-    hover: { scale: 1.05 },
-    focus: { scale: 1.05 },
-    tap: { scale: 0.95 },
-};
-
-export default function Footer(props: FooterProps) {
+export default function Footer {
 
     return (
         <div className="footer">
