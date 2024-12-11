@@ -1,3 +1,5 @@
+/* src/styles/Footer2.scss */
+
 @use "../styles/mixins";
 
 .footer {
@@ -8,34 +10,12 @@
   row-gap: 10px;
   padding: 15px 10px;
 
-  @include mixins.glass-card;
-
-  .copyright {
-    font-size: 1.12rem;
-    font-weight: 500;
-    color: inherit;
-  }
-
-  .build-your-own-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 5px;
-    color: inherit;
-    padding: 10px;
-    border-radius: 25px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 
-    background-color 0.3s ease, 
-  }
-
+  @include mixins.glass-card; // Applies the original blue box styling
 
   /* Informational Text Styling */
   .footer-info {
     text-align: center;
-    color: #e0f4ff; /* textColor from config.json */
+    color: #e0f4ff; /* Text color from config.json */
     font-family: 'Parkinsans', sans-serif; /* Ensure it matches your site */
     max-width: 600px;
     padding: 10px;
@@ -63,13 +43,26 @@
         font-size: 1rem;
         margin-bottom: 6px;
 
-        /*&:before {
+        /* Optional: Add custom bullet points
+        &:before {
           content: "•";
           position: absolute;
           left: 0;
           color: #e0f4ff; 
-        }*/
+        }
+        */
       }
+    }
+
+    /* Styling for the Nested Tokenomics Box */
+    .footer-inner {
+      background-color: rgba(0, 0, 0, 0.2); /* More transparent blue */
+      padding: 10px 10px; /* Less side padding */
+      margin-top: 20px; /* More space above */
+      border-radius: 18px; /* Slightly less rounded */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      width: 100%; /* Ensure it spans the full width of the parent */
+      max-width: 500px; /* Optional: Limit the maximum width */
     }
   }
 

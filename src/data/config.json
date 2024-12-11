@@ -14,6 +14,12 @@
             "logoName": "social-x",
             "url": "https://x.com/MyBro_xyz"
         },
+
+        {
+            "name": "The Arena",
+            "logoName": "arena",
+            "url": "https://arena.social/MyBro_xyz"
+        },        
         {
             "name": "Telegram",
             "logoName": "telegram",

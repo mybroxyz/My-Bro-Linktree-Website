@@ -1,3 +1,5 @@
+// src/App.tsx
+
 import { useState, useEffect } from "react";
 
 // types
@@ -9,7 +11,8 @@ import configData from "./data/config.json";
 // components
 import ProfileHeader from "./components/ProfileHeader";
 import LinkBlocksWrapper from "./components/LinkBlocksWrapper";
-import Footer2 from "./components/Footer2";
+import FooterTokenomics from "./components/FooterTokenomics";
+import FooterDisclaimer from "./components/FooterDisclaimer";
 import LoadingScreen from "./components/LoadingScreen";
 
 // styles
@@ -46,10 +49,10 @@ function App() {
                     links={config.links}
                     linkLogoColor={config.linkLogoColor}
                 />
-                <Footer2
-                />                
 
-
+                {/* Render the updated footer components */}
+                <FooterTokenomics />
+                <FooterDisclaimer />
             </div>
         </>
     );
