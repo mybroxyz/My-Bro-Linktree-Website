@@ -1,12 +1,12 @@
 {
     "name": "My Bro",
     "handle": "MyBro_xyz",
-    "bio": "$BRO presale launching soon, only on Avalanche.",
-    "verifiedIconColor": "#36b7fd",
-    "linkLogoColor": "#30A5E4",
-    "textColor": "#e0f4ff",
-    "buildYourOwnBtnColor": "#053a6e",
-    "backgroundColor": "#041020",
+    "bio": "$BRO presale launching soon, only on Avalanche",
+    "verifiedIconColor": "goldenrod",
+    "linkLogoColor": "goldenrod",
+    "textColor": "goldenrod",
+    "buildYourOwnBtnColor": "goldenrod",
+    "backgroundColor": "goldenrod",
     "links": [
 
         {

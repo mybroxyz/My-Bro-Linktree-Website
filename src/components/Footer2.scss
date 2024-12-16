@@ -15,19 +15,25 @@
   /* Informational Text Styling */
   .footer-info {
     text-align: center;
-    color: #e0f4ff; /* Text color from config.json */
+    color: goldenrod; /* Text color from config.json */
     font-family: 'Parkinsans', sans-serif; /* Ensure it matches your site */
     max-width: 600px;
     padding: 10px;
 
     .footer-description {
-      font-size: 1rem;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .footer-disclaimer {
+      font-size: 1.15rem;
       margin-bottom: 10px;
       line-height: 1.5;
     }
 
     .footer-title {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-bottom: 8px;
       text-align: center; /* Centers the heading */
     }
@@ -39,18 +45,16 @@
 
       li {
         position: relative;
-        padding-left: 20px;
-        font-size: 1rem;
+        padding-left: 0px;
+        font-size: 1.3rem;
         margin-bottom: 6px;
 
-        /* Optional: Add custom bullet points
         &:before {
-          content: "•";
-          position: absolute;
+          content: "• ";
           left: 0;
-          color: #e0f4ff; 
+          color: goldenrod; 
         }
-        */
+        
       }
     }
 
@@ -80,13 +84,19 @@
 
     .build-your-own-btn {
       padding: 8px 16px;
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
-    .footer-info .footer-description,
-    .footer-info .footer-title,
+    .footer-info .footer-description{
+      font-size: 1.3rem;
+    }
+
+    .footer-info .footer-title{
+      font-size: 1.5rem;
+    }
+
     .footer-info .footer-tokenomics li {
-      font-size: 0.9rem;
+      font-size: 1.3rem;
     }
   }
 
