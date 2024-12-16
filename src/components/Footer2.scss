@@ -15,7 +15,6 @@
   /* Informational Text Styling */
   .footer-info {
     text-align: center;
-    color: goldenrod; /* Text color from config.json */
     font-family: 'Parkinsans', sans-serif; /* Ensure it matches your site */
     max-width: 600px;
     padding: 10px;
@@ -52,7 +51,6 @@
         &:before {
           content: "• ";
           left: 0;
-          color: goldenrod; 
         }
         
       }
