@@ -87,6 +87,10 @@ Super Simple!
 5. Go to your GitHub repo's settings. In `Pages` set "Deploy from a branch" to `gh-pages`!
 6. Enjoy!
 
+PS. Edit src\components\FooterDisclaimer.tsx and src\components\FooterTokenomics.tsx as well to customize teh tokenomics and disclaimer section. 
+PPS. Edit src\App.tsx to change the tab image and description. The loading image and tab image is the src\assets\favicon.svg svg 
+PPPS. index.html has some info too can update if desired
+
 > \[!IMPORTANT]
 >
 > <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20" /> **Star Us** to receive the latest updates of this project from GitHub!

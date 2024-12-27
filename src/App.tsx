@@ -24,7 +24,7 @@ function App() {
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        document.title = `${config.handle}'s Link Orchard`;
+        document.title = `${config.handle} Link Orchard`;
         document.body.style.backgroundColor = config.backgroundColor;
         document.body.style.color = config.textColor;
 

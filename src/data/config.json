@@ -24,6 +24,21 @@
             "name": "Telegram",
             "logoName": "telegram",
             "url": "https://t.me/MyBro_xyz"
+        },        
+        {
+            "name": "TikTok",
+            "logoName": "tiktok",
+            "url": "https://www.tiktok.com/@mybro_xyz"
+        },        
+        {
+            "name": "Github",
+            "logoName": "github",
+            "url": "https://github.com/mybroxyz"
+        },        
+        {
+            "name": "Medium",
+            "logoName": "medium",
+            "url": "https://medium.com/@mybro.xyz"
         }
     ]
 }
