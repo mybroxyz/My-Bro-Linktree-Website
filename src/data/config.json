@@ -1,7 +1,7 @@
 {
     "name": "My Bro",
     "handle": "MyBro_xyz",
-    "bio": "$BRO presale launching soon, only on Avalanche",
+    "bio": "$BRO - Only on Avalanche",
     "verifiedIconColor": "#36b7fd",
     "linkLogoColor": "darkgoldenrod",
     "textColor": "goldenrod",
@@ -9,11 +9,6 @@
     "backgroundColor": "#041020",
     "links": [
 
-        {
-            "name": "Presale dAPP",
-            "logoName": "dwarfFace",
-            "url": "https://www.buymybro.xyz/"
-        },        
         {
             "name": "X",
             "logoName": "social-x",
